@@ -1,7 +1,7 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
 !  Last Modified:  2014-06-11 10:55
-!  Homepage: https://code.google.com/p/adblock-list-kfl
+!  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !-------------------------------------------------
 !广西网通广告
