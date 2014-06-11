@@ -1,7 +1,0 @@
-! AdBlock lists for kfl
-! Last update: 2014-06-11 10:25
-
-tieba.baidu.com##DIV[class="game_forum_in clearfix"]
-tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
-tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
-www.verycd.com##DIV[class="top_slide_wrap"]
