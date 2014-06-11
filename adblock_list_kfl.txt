@@ -1,0 +1,77 @@
+﻿ [Adblock]
+!  Title: Adblock_list_kfl  
+!  Last Modified:  2014-06-11 10:55
+!  Homepage: https://code.google.com/p/adblock-list-kfl
+
+!-------------------------------------------------
+!广西网通广告
+##div[id="floatAd"]
+!/admode.js
+!ad.gx10010.com/tb/*
+!##iframe[src^="http://221.7.244.118"]
+!##iframe[src^="ad.gx10010.com/"]
+!##iframe[src^="http://221.7.244.119"]
+! 爱漫网广告
+www.imanhua.com##div[id^="imh"]
+www.imanhua.com/inc/update2.html
+www.imanhua.com##div[id="uptList"]
+www.imanhua.com##div[class="bar"]
+www.imanhua.com##div[id="share"]
+www.imanhua.com##H6
+! verycd广告
+www.verycd.com##li[id="2422-ad"]
+www.verycd.com##DIV[id="BAIDU_PAGE_AD_1"]
+! 以下是verycd我再看的展开，个人觉得很烦
+www.verycd.com##div[class="top_slide_wrap"]
+! verycd搜索广告
+www.verycd.com##div[class="rightTitle"]
+www.verycd.com##ul[id="side_goods_list"][class="side_goods_list"]
+www.verycd.com##div[class="side_ads"]
+www.verycd.com##div[class^="more_goods"]
+www.verycd.com##div[id^="PAGE_AD_"]
+! 红旅广告
+hltm.cc#div[id="1"]
+hltm.cc##div[id="1"][class="ad1960"]
+hltm.cc##div[id^="__QY"]
+hltm.cc##span[id^="myad"]
+hltm.cc#div[id="4"]
+hltm.cc##div[id="5"][class="ad960"]
+! 电脑上wap网 pctowap去广告
+pctowap.com##div[id="dowap-function-area"]
+pctowap.com##a[href="http://i.doguo.com/pay.php"]
+pctowap.com##img[src="/img/bs2.jpg"]
+pctowap.com##div[class$="dowap_ads"]
+pctowap.com##div[class^="ad-area-right"]
+pctowap.com##div[class^="functional-area-left"]
+pctowap.com##div[class^="functional-area-right"]
+pctowap.com##img[src^="/img/bs"][src$="jpg"]
+||pctowap.com/*/bbs.js
+||doguo.com/api/vip_discount.js
+||pctowap.com/dowap2/js/jquery.js
+||pctowap.com/plug/*/status.php
+! 百度贴吧
+tieba.baidu.com##DIV[class="game_forum_in clearfix"]
+tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
+tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
+
+!百度顶部冒泡广告
+||hi.bdimg.com/*/mod_bubble.js?
+! 百度我的主页广告
+hi.baidu.com##section[class="mod-side-item"]
+
+! ku6 酷6
+v.ku6.com##a[href^="//adrs.sdo.com/ADRefererSystem/adjump.aspx"]
+v.ku6.com##a[href^="//xiu.ku6.com/adgate"]
+v.ku6.com##div[class="award gif"]
+!广告网
+||js.2529.com
+! PPS
+v.pps.tv##div[id="hot-send"]
+
+!红豆
+||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
+!新闻广告
+net.chinabyte.com##ASIDE[class="col-extra"]
+pic.news.sohu.com##DIV[class="boxC-RB"]
+ent.ifeng.com##ul[class="pics_2 clearfix"]
+weibo.com##div[id="Pl_Official_MyMicroworld__3"]

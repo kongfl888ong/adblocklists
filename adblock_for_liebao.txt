@@ -1,0 +1,105 @@
+﻿![Liebao Adblock Rule]
+!Title:Rule for konghome520
+!Author:konghome520
+!Updated:2014-06-11 10:55
+!Version:2.6
+!Description:Rule for konghome520                                           
+!Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
+
+!一点总结：隐藏元素日志是不显示的
+!关于正则表达式，
+!正则符.*才是正道，表示任意个字符，而且不能用\来转义，论坛的置顶通用规则那是误解，
+!那会导致其他规则失效
+!一旦元素位于iframe中，该隐藏元素规则就会失效 -201305
+!最汗颜的事，标签或属性竟不支持大写如DIV --201305
+
+!电脑上wap网pctowap去广告
+/^http:\/\/.*pctowap\.com\/.*\/bbs\.js.*/
+/^http:\/\/.*doguo\.com\/api\/vip_discount\.js.*/
+/^http:\/\/.*pctowap\.com\/dowap2\/js\/jquery\.js/
+/^http:\/\/.*pctowap\.com\/plug\/.*\/status\.php.*/
+i.doguo.com/api/vip_discount.js
+##div[class$="bbs"]	$d=pctowap.com
+##div[class*="dowap_ads"]	$d=pctowap.com
+##div[class*="bdlikebutton"]	$d=pctowap.com
+
+!爱漫网广告
+##div[id^="imh"]	$d=imanhua.com
+##div[id="uptList"]	$d=imanhua.com
+##div[class="bar"]	$d=imanhua.com
+##div[id="share"]	$d=imanhua.com
+##H6			$d=imanhua.com
+www.imanhua.com/inc/update2.html
+
+!网通广告，联通胁持太恶心了，将整个网页都嵌入了iframe中
+!屏蔽只能重载网页，老人不会这个，没办法只能容忍
+!/^http:\/\/.*\/admode.js/
+##div[id="floatAd"]
+!ad.gx10010.com/*
+!##iframe[src^="http://221.7.244.118"]
+!##iframe[src^="http://221.7.244.119"]
+!##iframe[src^="ad.gx10010.com/"]
+
+! 百度贴吧
+##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
+##div[id="top_banner"]		$d=tieba.baidu.com
+##div[class^="game"]		$d=tieba.baidu.com
+##div[class^="hgame"]		$d=tieba.baidu.com
+##div[class="game_forum_in clearfix"]		$d=tieba.baidu.com
+##div[id^="BAIDU_CLB_AD_"]		$d=tieba.baidu.com
+##div[id^="BAIDU_CLB_AD_IFRAME_"]		$d=tieba.baidu.com
+! 百度我的主页广告
+##section[class="mod-side-item"] 	$d=hi.baidu.com
+!百度顶部冒泡广告
+/^http:\/\/.*hi\.bdimg\.com\/.*\/mod_bubble\.js.*/
+
+!百度广告
+##div[id="s_wl"]	$d=www.baidu.com
+##div[id="s_wl"]	$d=www.baidu.com
+##div[id="lm"]		$d=www.baidu.com
+
+!http://www.26333.com/
+##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
+##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
+26333.com/bbs/tu3/m960X50.gif
+/:\/\/([^\/]+\.)?51yes\.com/
+
+! 红旅广告
+##div[id="1"][class="ad1960"]		$d=hltm.cc
+##div[id^="__QY"]	$d=hltm.cc
+##span[id^="myad"]	$d=hltm.cc
+##div[id="4"]		$d=hltm.cc
+##div[id="5"]		$d=hltm.cc
+##div[class*="ad"]	$d=hltm.cc
+
+! verycd广告
+##div[id="top_ad"]	$d=verycd.com
+##li[id="2422-ad"]	$d=verycd.com
+##div[id="BAIDU_PAGE_AD_1"]	$d=verycd.com
+! 以下是verycd我在看的展开，个人觉得很烦
+##div[class="top_slide_wrap"]	$d=verycd.com
+! 以下verycd商品推荐
+##div[class="rightTitle"]	$d=verycd.com
+##ul[id="side_goods_list"][class="side_goods_list"]	$d=verycd.com
+##div[class^="more_goods"]	$d=verycd.com
+##div[id^="PAGE_AD_"]	$d=verycd.com
+##div[class="side_ads"]	$d=verycd.com
+
+! 酷6
+##div[class="award gif"]	$d=v.ku6.com
+
+!广告网
+/^http:\/\/.*js\.2529\.com.*/
+
+! PPS
+##div[id="hot-send"]	$d=v.pps.tv
+
+!红豆
+/^http:\/\/user\.hongdou\.gxnews\.com\.cn\/upload\/index\//	$t=object
+
+!新闻广告
+##aside[class="col-extra"]		$d=net.chinabyte.com
+##div[class="boxC-RB"]			$d=pic.news.sohu.com
+##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
+
+##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
