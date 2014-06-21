@@ -1,7 +1,7 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rule for konghome520
 !Author:konghome520
-!Updated:2014-06-21 16:55
+!Updated:2014-06-21 17:55
 !Version:2.7
 !Description:Rule for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
