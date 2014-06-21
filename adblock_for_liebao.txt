@@ -1,8 +1,8 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rule for konghome520
 !Author:konghome520
-!Updated:2014-06-11 10:55
-!Version:2.6
+!Updated:2014-06-21 16:55
+!Version:2.7
 !Description:Rule for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
 
@@ -58,6 +58,20 @@ www.imanhua.com/inc/update2.html
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="lm"]		$d=www.baidu.com
 
+!欺骗性广告
+##table[id="table5943"]	$d=26333.com
+##table[id="table5772"]	$d=26333.com
+##img[src="m960X50.gif"]	$d=26333.com
+/^http:\/\/.*\.41090\.com\.*/
+##img[width="979"][height="64"]	$d=hy49.com
+/^http:\/\/.*\.99477\.com\/hkxx\.htm/
+a[href="http://www.99477.com/hkxx.htm"]
+##img[src$="m960X50.gif"]
+##table[id="table6175"]	$d=726666.com
+/^http:\/\/.*\.hg16558\.com\.*/
+##iframe[id="mainFrame"]	$d=hg16558.com
+hg16558.com	$t=image|script
+
 !http://www.26333.com/
 ##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
 ##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
@@ -103,3 +117,4 @@ www.imanhua.com/inc/update2.html
 ##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
 
 ##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
+
