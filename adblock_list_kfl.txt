@@ -1,11 +1,11 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-06-11 10:56
+!  Last Modified:  2014-07-01 10:56
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !-------------------------------------------------
 !广西网通广告
-##div[id="floatAd"]
+!##div[id="floatAd"]
 !/admode.js
 !ad.gx10010.com/tb/*
 !##iframe[src^="http://221.7.244.118"]
