@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-01 10:56
+!  Last Modified:  2014-07-05 16:26
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
@@ -53,7 +53,6 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 tieba.baidu.com##DIV[class="game_forum_in clearfix"]
 tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
 tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
-
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
@@ -61,7 +60,6 @@ hi.baidu.com##section[class="mod-side-item"]
 
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
-
 ! PPS
 v.pps.tv##div[id="hot-send"]
 
