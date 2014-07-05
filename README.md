@@ -1,4 +1,4 @@
 adblocklists
 ============
 
-adblock lists for kfl
+adblock lists for personal browser.

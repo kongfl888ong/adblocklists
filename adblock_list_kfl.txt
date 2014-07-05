@@ -60,8 +60,6 @@ tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
 hi.baidu.com##section[class="mod-side-item"]
 
 ! ku6 酷6
-v.ku6.com##a[href^="//adrs.sdo.com/ADRefererSystem/adjump.aspx"]
-v.ku6.com##a[href^="//xiu.ku6.com/adgate"]
 v.ku6.com##div[class="award gif"]
 !广告网
 ||js.2529.com

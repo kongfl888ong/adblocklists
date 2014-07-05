@@ -1,8 +1,8 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rule for konghome520
 !Author:konghome520
-!Updated:2014-06-21 17:55
-!Version:2.7
+!Updated:2014-07-05 15:25
+!Version:2.8
 !Description:Rule for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
 
@@ -100,7 +100,11 @@ hg16558.com	$t=image|script
 ##div[class="side_ads"]	$d=verycd.com
 
 ! 酷6
+##a[href^="//adrs.sdo.com/ADRefererSystem/adjump.aspx"]	$d=v.ku6.com
+##a[href^="//xiu.ku6.com/adgate"]	$d=v.ku6.com
 ##div[class="award gif"]	$d=v.ku6.com
+! 优酷
+##div[id^="ad_"]	$d=v.youku.com
 
 !广告网
 /^http:\/\/.*js\.2529\.com.*/
