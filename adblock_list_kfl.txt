@@ -61,10 +61,12 @@ hi.baidu.com##section[class="mod-side-item"]
 
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
-!广告网
-||js.2529.com
+
 ! PPS
 v.pps.tv##div[id="hot-send"]
+
+!广告网
+||js.2529.com
 
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
