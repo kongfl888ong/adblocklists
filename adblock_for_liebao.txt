@@ -1,7 +1,7 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rule for konghome520
 !Author:konghome520
-!Updated:2014-07-05 15:25
+!Updated:2014-07-05 16:40
 !Version:2.8
 !Description:Rule for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
@@ -52,7 +52,6 @@ www.imanhua.com/inc/update2.html
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
 !百度顶部冒泡广告
 /^http:\/\/.*hi\.bdimg\.com\/.*\/mod_bubble\.js.*/
-
 !百度广告
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="s_wl"]	$d=www.baidu.com
