@@ -3,7 +3,7 @@
 !  Last Modified:  2014-07-01 10:56
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
-!-------------------------------------------------
+!--------------------------------------------------
 !广西网通广告
 !##div[id="floatAd"]
 !/admode.js
