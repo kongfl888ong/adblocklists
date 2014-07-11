@@ -121,3 +121,12 @@ hg16558.com	$t=image|script
 
 ##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
 
+! 电信dns挟持页
+##div[class="skeyword"]	$d=dnserror.cn
+##div[class="error"]	$d=dnserror.cn
+##H2	$d=dnserror.cn
+/^http:\/\/.*\.dnserror\.cn.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*\.ctrip\.com.*/	$d=dnserror.cn
+
+! 去除cnzz网站统计
+/^http:\/\/.*\.cnzz\.com.*/	

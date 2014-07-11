@@ -73,3 +73,11 @@ net.chinabyte.com##ASIDE[class="col-extra"]
 pic.news.sohu.com##DIV[class="boxC-RB"]
 ent.ifeng.com##ul[class="pics_2 clearfix"]
 weibo.com##div[id="Pl_Official_MyMicroworld__3"]
+! 电信dns挟持页
+dnserror.cn##DIV[class="skeyword"]
+||dnserror.cn
+||ctrip.com$domain=dnserror.cn
+dnserror.cn##DIV[class="error"]
+dnserror.cn##H2
+! 去除cnzz网站统计
+||cnzz.com$third-party
