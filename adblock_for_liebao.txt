@@ -1,8 +1,8 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rule for konghome520
 !Author:konghome520
-!Updated:2014-07-05 16:40
-!Version:2.8
+!Updated:2014-07-17 16:40
+!Version:2.9
 !Description:Rule for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
 
@@ -12,6 +12,27 @@
 !那会导致其他规则失效
 !一旦元素位于iframe中，该隐藏元素规则就会失效 -201305
 !最汗颜的事，标签或属性竟不支持大写如DIV --201305
+
+!--中国电信
+/^http:\/\/.*/clicktotal\/ClickTotal\.js.*/
+/^http:\/\/.*189\.cn\/dns\/.*/
+/^http:\/\/.*gd\.189\.cn\/ad\/.*/		$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/ad\/.*/		$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn\/gz\/promotion\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/gz\/promotion\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn\/push\/.*/		$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn\/push\/.*/		$d=gd.189.cn	$w
+/^http:\/\/.*gd\.189\.cn^.*\/push\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.189\.cn^.*\/push\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*gd\.ct10000\.com\/js\/ecssstat\.js.*/
+/^http:\/\/.*gd\.ct10000\.com^.*\/push\/.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*gd\.ct10000\.com^.*\/push\/.*/	$d=gd.189.cn	$w
+/^http:\/\/.*jxad\.jx163\.com^.*/
+!--联通
+/^http:\/\/.*kdly\.net^.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+!--广东电信
+/^http:\/\/.*/js\/utils51\.js.*/
+/^http:\/\/.*/js\/utils78\.js.*/
 
 !电脑上wap网pctowap去广告
 /^http:\/\/.*pctowap\.com\/.*\/bbs\.js.*/
@@ -48,6 +69,17 @@ www.imanhua.com/inc/update2.html
 ##div[class="game_forum_in clearfix"]		$d=tieba.baidu.com
 ##div[id^="BAIDU_CLB_AD_"]		$d=tieba.baidu.com
 ##div[id^="BAIDU_CLB_AD_IFRAME_"]		$d=tieba.baidu.com
+##li[id^="spreadad_"]		$d=tieba.baidu.com
+##li[class^="clearfix spreadad spreadad_"]	$d=tieba.baidu.com
+/^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
+/^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
+/^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
+/^http:\/\/.*bdstatic\.com\/tb\/cms\/com\/game\/couplet_.*/
+/^http:\/\/.*bdstatic\.com\/tb\/cms\/img\/tieba_index_banner960x90\.png.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-encourage\/widget\/worldcup_guess_item\/images\/wish_card_back_.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-ucenter\/img\/cont_sign_card\.gif.*/
+/^http:\/\/.*bdstatic\.com\/tb\/zt\/tengfei\/gzdialog\.jpg.*/
+
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
 !百度顶部冒泡广告

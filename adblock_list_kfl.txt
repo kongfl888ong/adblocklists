@@ -1,9 +1,24 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-05 16:43
+!  Last Modified:  2014-07-17 16:43
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
+!--中国电信
+/clicktotal/ClickTotal.js
+||189.cn/dns/
+||gd.189.cn/ad/$popup,third-party
+||gd.189.cn/gz/promotion/$popup,third-party
+||gd.189.cn/push/$popup,third-party
+||gd.189.cn^*/push/$popup,third-party
+||gd.ct10000.com/js/ecssstat.js
+||gd.ct10000.com^*/push/$popup,third-party
+||jxad.jx163.com^
+!--联通
+||kdly.net^$third-party
+!--广东电信
+/js/utils51.js
+/js/utils78.js
 !广西网通广告
 !##div[id="floatAd"]
 !/admode.js
@@ -53,6 +68,17 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 tieba.baidu.com##DIV[class="game_forum_in clearfix"]
 tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
 tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
+tieba.baidu.com##LI[id^="spreadad_"]
+tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
+||bdstatic.com/api_hao123AdvHeader.js
+||bdstatic.com/cms/mbox/audioad/AudioAd.js
+||bdstatic.com/pc_static/detail/game_promotion/
+||bdstatic.com/tb/cms/com/game/couplet_
+||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
+||bdstatic.com/tb/r/image/2014-06-05/3a51a66567d15cb0b6096aecd8086f34.gif
+||bdstatic.com/tb/static-encourage/widget/worldcup_guess_item/images/wish_card_back_
+||bdstatic.com/tb/static-ucenter/img/cont_sign_card.gif
+||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
@@ -65,6 +91,7 @@ v.pps.tv##div[id="hot-send"]
 
 !广告网
 ||js.2529.com
+
 
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
@@ -81,3 +108,5 @@ dnserror.cn##DIV[class="error"]
 dnserror.cn##H2
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
+! 京东
+||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
