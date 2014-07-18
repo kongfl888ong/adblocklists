@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-17 16:43
+!  Last Modified:  2014-07-18 16:43
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
@@ -87,24 +87,26 @@ hi.baidu.com##section[class="mod-side-item"]
 ||youxi.baidu.com/bdzone/nav.html$domain=hi.baidu.com
 ! 百度新闻
 news.baidu.com##div[id="identifier-pannel"]
-! ku6 酷6
-v.ku6.com##div[class="award gif"]
-! PPS
-v.pps.tv##div[id="hot-send"]
-
-!广告网
-||js.2529.com
-||tanx.com^$third-party,domain=~taobao.com|~tmall.com
-|http://bdimg.share.baidu.com/static/api/js/share.js?v=
-|http://cpro.$domain=~7958.com|~www.400gb.com
-
-!红豆
-||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
+news.baidu.com##div[id="favoriteTips"]
+! 中国新闻网
+||afp.chinanews.com
+! 中国日报
+chinadaily.com.cn##div[id^="qihu"]
 !新闻广告
 net.chinabyte.com##ASIDE[class="col-extra"]
 pic.news.sohu.com##DIV[class="boxC-RB"]
 ent.ifeng.com##ul[class="pics_2 clearfix"]
 weibo.com##div[id="Pl_Official_MyMicroworld__3"]
+||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
+
+! ku6 酷6
+v.ku6.com##div[class="award gif"]
+! PPS
+v.pps.tv##div[id="hot-send"]
+
+!红豆
+||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
+
 ! 电信dns挟持页
 dnserror.cn##DIV[class="skeyword"]
 ||dnserror.cn
@@ -115,3 +117,14 @@ dnserror.cn##H2
 ||cnzz.com$third-party
 ! 京东
 ||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
+
+
+!广告网
+||js.2529.com
+||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+|http://bdimg.share.baidu.com/static/api/js/share.js?v=
+|http://cpro.$domain=~7958.com|~www.400gb.com
+|http://*.allyes.com$third-party
+||yigao.com^$third-party
+||cloudfront.net/atrk.js
+||crs.baidu.com^

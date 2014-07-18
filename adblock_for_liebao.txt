@@ -1,16 +1,16 @@
 ﻿![Liebao Adblock Rule]
-!Title:Rule for konghome520
+!Title:Rules for version 3.8 of liebao browser
 !Author:konghome520
-!Updated:2014-07-17 16:40
-!Version:2.9
-!Description:Rule for konghome520                                           
+!Updated:2014-07-18 16:40
+!Version:3.0
+!Description:Rules for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
 
 !一点总结：隐藏元素日志是不显示的
 !关于正则表达式，
 !正则符.*才是正道，表示任意个字符，而且不能用\来转义，论坛的置顶通用规则那是误解，
 !那会导致其他规则失效
-!一旦元素位于iframe中，该隐藏元素规则就会失效 -201305
+!一旦元素位于iframe中，限定网域的隐藏元素规则就会失效 -201305
 !最汗颜的事，标签或属性竟不支持大写如DIV --201305
 
 !--中国电信
@@ -90,10 +90,22 @@ www.imanhua.com/inc/update2.html
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="lm"]		$d=www.baidu.com
-/^http:\/\/.*nsclick\.baidu\.com.*/
 ! 百度新闻
 /^http:\/\/.*news.baidu\.com\/nocache\/mp\/b\.jpg.*/ $d=news.baidu.com
 ##div[id="identifier-pannel"]	$d=news.baidu.com
+##div[id="favoriteTips"]	$d=news.baidu.com
+! 中国新闻网
+/^http:\/\/.*\.afp\.chinanews\.com.*/
+! 环球
+/^http:\/\/.*huanqiu\.com\/script\/HuanQiuAllBottom\.Js.*/	$d=huanqiu.com
+! 中国日报
+##div[id^="qihu"]	$d=chinadaily.com.cn
+!新闻广告
+##aside[class="col-extra"]		$d=net.chinabyte.com
+##div[class="boxC-RB"]			$d=pic.news.sohu.com
+##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
+
+##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
 
 !欺骗性广告
 ##table[id="table5943"]	$d=26333.com
@@ -143,25 +155,11 @@ hg16558.com	$t=image|script
 ! 优酷
 ##div[id^="ad_"]	$d=v.youku.com
 
-!广告网
-/^http:\/\/.*js\.2529\.com.*/
-/^http:\/\/.*\.tanx\.com\.com.*/
-/^http:\/\/bdimg\.share\.baidu\.com\/static\/api\/js\/share.js\?v=.*/
-/^http:\/\/cpro.baidustatic.com\/.*/
-/^http:\/\/cpro.baidu.com\/.*/
-
 ! PPS
 ##div[id="hot-send"]	$d=v.pps.tv
 
 !红豆
 /^http:\/\/user\.hongdou\.gxnews\.com\.cn\/upload\/index\//	$t=object
-
-!新闻广告
-##aside[class="col-extra"]		$d=net.chinabyte.com
-##div[class="boxC-RB"]			$d=pic.news.sohu.com
-##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
-
-##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
 
 ! 电信dns挟持页
 ##div[class="skeyword"]	$d=dnserror.cn
@@ -174,6 +172,27 @@ hg16558.com	$t=image|script
 /^http:\/\/.*\.cnzz\.com.*/	
 ! 去除百度统计
 /^http:\/\/.*hm\.baidu\.com\/h.*/	
+
+!广告网
+/^http:\/\/.*js\.2529\.com.*/
+/^http:\/\/.*\.tanx\.com\.com.*/
+/^http:\/\/bdimg\.share\.baidu\.com\/static\/api\/js\/share.js\?v=.*/
+/^http:\/\/.*nsclick\.baidu\.com.*/
+/^http:\/\/cpro\.baidustatic\.com\/.*/
+/^http:\/\/cpro\.baidu\.com\/.*/
+/^http:\/\/crs\.baidu\.com\/.*/
+/^http:\/\/cbjs\.baidu\.com\/js\/m\.js.*/
+/^http:\/\/cbjs\.baidu\.com\/js\/o\.js.*/
+/^http:\/\/.*\.allyes\.com\/.*/
+/^http:\/\/.*\.csbew\.com\/.*/
+/^http:\/\/.*\.yigao\.com\/.*/
+/^http:\/\/.*\.wrating\.com\/.*/
+/^http:\/\/.*\.knet\.cn\/.*/
+/^http:\/\/s\.360\.cn\/.*/
+/^http:\/\/s\.lianmeng\.360\.cn\/.*/
+/^http:\/\/.*\.cloudfront\.net\/atrk\.js.*/
+
+
 
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/
