@@ -193,7 +193,6 @@ hg16558.com	$t=image|script
 /^http:\/\/.*\.cloudfront\.net\/atrk\.js.*/
 
 
-
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/
 /.*\/ad\/.*/
@@ -201,4 +200,3 @@ hg16558.com	$t=image|script
 /.*\.com\/s\?z=.*/
 /^http:\/\/ad\..*/
 /^http:\/\/.*\/gg\/.*/	$t=script|object|stylesheet
-
