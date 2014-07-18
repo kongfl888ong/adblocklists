@@ -103,6 +103,11 @@ www.imanhua.com/inc/update2.html
 ##div[class^="hdPic"]	$d=huanqiu.com
 ! 中国日报
 ##div[id^="qihu"]	$d=chinadaily.com.cn
+! 凤凰网
+/^http:\/\/.*ifengimg\.com\/ifeng\/sources\/.*/	$t=script
+!!移除凤凰网的ip定位
+http://region.ifeng.com/get?format=js&callback=setRegionCookies
+
 !新闻广告
 ##[href^="http://sh.qihoo.com/?src="]
 ##aside[class="col-extra"]		$d=net.chinabyte.com
@@ -194,6 +199,7 @@ hg16558.com	$t=image|script
 /^http:\/\/s\.360\.cn\/.*/
 /^http:\/\/s\.lianmeng\.360\.cn\/.*/
 /^http:\/\/.*\.cloudfront\.net\/atrk\.js.*/
+/^http:\/\/.*googletagservices\.com\/tag\/js\/gpt\.js.*/	$t=script	
 
 
 ! 通用全局屏蔽

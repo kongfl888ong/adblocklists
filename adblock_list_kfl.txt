@@ -95,6 +95,11 @@ chinadaily.com.cn##div[id^="qihu"]
 ! 环球
 ||himg2.huanqiu.com/statics/js/adCode.js
 huanqiu.com##div[class^="hdPic"]
+! 凤凰网
+||ifengimg.com/ifeng/sources/	$script
+!!移除凤凰网的ip定位
+|http://region.ifeng.com/get?format=js&callback=setRegionCookies
+
 !新闻广告
 ##[href^="http://sh.qihoo.com/?src="][href$="#resoutu"]
 net.chinabyte.com##ASIDE[class="col-extra"]
