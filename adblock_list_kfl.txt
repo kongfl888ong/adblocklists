@@ -85,7 +85,8 @@ tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
 hi.baidu.com##section[class="mod-side-item"]
 ||hi.baidu.com/cm/static/js/allsite.js$domain=hi.baidu.com
 ||youxi.baidu.com/bdzone/nav.html$domain=hi.baidu.com
-
+! 百度新闻
+news.baidu.com##div[id="identifier-pannel"]
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
 ! PPS
