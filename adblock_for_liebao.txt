@@ -145,6 +145,7 @@ hg16558.com	$t=image|script
 
 !广告网
 /^http:\/\/.*js\.2529\.com.*/
+/^http:\/\/.*\.tanx\.com\.com.*/
 
 ! PPS
 ##div[id="hot-send"]	$d=v.pps.tv
