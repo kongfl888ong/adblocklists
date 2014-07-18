@@ -83,7 +83,9 @@ www.imanhua.com/inc/update2.html
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
 !百度顶部冒泡广告
-/^http:\/\/.*hi\.bdimg\.com\/.*\/mod_bubble\.js.*/
+/^http:\/\/.*hi\.bdimg\.com\/.*\/mod_bubble\.js.*/	$d=hi.baidu.com
+/^http:\/\/.*hi\.baidu\.com\/cm\/static\/js\/allsite\..*/	$d=hi.baidu.com
+/^http:\/\/.*youxi\.baidu\.com\/bdzone\/nav\.html.*/	$d=hi.baidu.com
 !百度广告
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="s_wl"]	$d=www.baidu.com
