@@ -44,6 +44,7 @@ i.doguo.com/api/vip_discount.js
 ##div[class*="dowap_ads"]	$d=pctowap.com
 ##div[class*="bdlikebutton"]	$d=pctowap.com
 
+
 !爱漫网广告
 ##div[id^="imh"]	$d=imanhua.com
 ##div[id="uptList"]	$d=imanhua.com
@@ -98,13 +99,15 @@ www.imanhua.com/inc/update2.html
 /^http:\/\/.*\.afp\.chinanews\.com.*/
 ! 环球
 /^http:\/\/.*huanqiu\.com\/script\/HuanQiuAllBottom\.Js.*/	$d=huanqiu.com
+/^http:\/\/.*huanqiu\.com\/statics\/js\/adCode\.js.*/	$d=huanqiu.com
+##div[class^="hdPic"]	$d=huanqiu.com
 ! 中国日报
 ##div[id^="qihu"]	$d=chinadaily.com.cn
 !新闻广告
+##[href^="http://sh.qihoo.com/?src="]
 ##aside[class="col-extra"]		$d=net.chinabyte.com
 ##div[class="boxC-RB"]			$d=pic.news.sohu.com
 ##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
-
 ##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
 
 !欺骗性广告

@@ -92,7 +92,11 @@ news.baidu.com##div[id="favoriteTips"]
 ||afp.chinanews.com
 ! 中国日报
 chinadaily.com.cn##div[id^="qihu"]
+! 环球
+||himg2.huanqiu.com/statics/js/adCode.js
+huanqiu.com##div[class^="hdPic"]
 !新闻广告
+##[href^="http://sh.qihoo.com/?src="][href$="#resoutu"]
 net.chinabyte.com##ASIDE[class="col-extra"]
 pic.news.sohu.com##DIV[class="boxC-RB"]
 ent.ifeng.com##ul[class="pics_2 clearfix"]
