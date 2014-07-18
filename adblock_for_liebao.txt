@@ -146,6 +146,9 @@ hg16558.com	$t=image|script
 !广告网
 /^http:\/\/.*js\.2529\.com.*/
 /^http:\/\/.*\.tanx\.com\.com.*/
+/^http:\/\/bdimg\.share\.baidu\.com\/static\/api\/js\/share.js\?v=.*/
+/^http:\/\/cpro.baidustatic.com\/.*/
+/^http:\/\/cpro.baidu.com\/.*/
 
 ! PPS
 ##div[id="hot-send"]	$d=v.pps.tv
@@ -178,3 +181,5 @@ hg16558.com	$t=image|script
 /.*\.com\/cs\/jsfile\/.*/
 /.*\.com\/s\?z=.*/
 /^http:\/\/ad\..*/
+/^http:\/\/.*\/gg\/.*/	$t=script|object|stylesheet
+

@@ -95,6 +95,8 @@ v.pps.tv##div[id="hot-send"]
 !广告网
 ||js.2529.com
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
+|http://bdimg.share.baidu.com/static/api/js/share.js?v=
+|http://cpro.$domain=~7958.com|~www.400gb.com
 
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
