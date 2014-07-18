@@ -173,3 +173,7 @@ hg16558.com	$t=image|script
 
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/
+/.*\/ad\/.*/
+/.*\.com\/cs\/jsfile\/.*/
+/.*\.com\/s\?z=.*/
+/^http:\/\/ad\..*/
