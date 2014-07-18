@@ -90,6 +90,7 @@ www.imanhua.com/inc/update2.html
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="s_wl"]	$d=www.baidu.com
 ##div[id="lm"]		$d=www.baidu.com
+/^http:\/\/.*nsclick\.baidu\.com.*/
 
 !欺骗性广告
 ##table[id="table5943"]	$d=26333.com
@@ -166,3 +167,6 @@ hg16558.com	$t=image|script
 /^http:\/\/.*\.cnzz\.com.*/	
 ! 去除百度统计
 /^http:\/\/.*hm\.baidu\.com\/h.*/	
+
+! 通用全局屏蔽
+/.*\/tuiguang\/.*/
