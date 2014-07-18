@@ -164,3 +164,5 @@ hg16558.com	$t=image|script
 
 ! 去除cnzz网站统计
 /^http:\/\/.*\.cnzz\.com.*/	
+! 去除百度统计
+/^http:\/\/.*hm\.baidu\.com\/h.*/	
