@@ -1,7 +1,7 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rules for version 3.8 of liebao browser
 !Author:konghome520
-!Updated:2014-07-18 16:40
+!Updated:2014-07-24 16:40
 !Version:3.0
 !Description:Rules for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
@@ -67,11 +67,14 @@ www.imanhua.com/inc/update2.html
 ##div[id="top_banner"]		$d=tieba.baidu.com
 ##div[class^="game"]		$d=tieba.baidu.com
 ##div[class^="hgame"]		$d=tieba.baidu.com
-##div[class="game_forum_in clearfix"]		$d=tieba.baidu.com
+##div[class^="game_forum_in"]		$d=tieba.baidu.com
+##ul[class^="game_tab"]		$d=tieba.baidu.com
 ##div[id^="BAIDU_CLB_AD_"]		$d=tieba.baidu.com
 ##div[id^="BAIDU_CLB_AD_IFRAME_"]		$d=tieba.baidu.com
 ##li[id^="spreadad_"]		$d=tieba.baidu.com
 ##li[class^="clearfix spreadad spreadad_"]	$d=tieba.baidu.com
+##div[class^="lot_wrap"]	$d=tieba.baidu.com
+##li[class="thread_notice clearfix thread_1st"]	$d=tieba.baidu.com
 /^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
 /^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
 /^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
@@ -80,6 +83,9 @@ www.imanhua.com/inc/update2.html
 /^http:\/\/.*bdstatic\.com\/tb\/static-encourage\/widget\/worldcup_guess_item\/images\/wish_card_back_.*/
 /^http:\/\/.*bdstatic\.com\/tb\/static-ucenter\/img\/cont_sign_card\.gif.*/
 /^http:\/\/.*bdstatic\.com\/tb\/zt\/tengfei\/gzdialog\.jpg.*/
+/^http:\/\/.*bdstatic\.com\/tb\/static-comforum\/widget\/history_game\/.*/	$d=tieba.baidu.com	
+/^http:\/\/.*wanba\.baidu\.com\/.*/	$d=tieba.baidu.com
+
 
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com

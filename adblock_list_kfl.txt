@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-18 16:43
+!  Last Modified:  2014-07-24 16:43
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
@@ -65,11 +65,14 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 ||pctowap.com/dowap2/js/jquery.js
 ||pctowap.com/plug/*/status.php
 ! 百度贴吧
-tieba.baidu.com##DIV[class="game_forum_in clearfix"]
+tieba.baidu.com##DIV[class^="game_forum_in"]
+tieba.baidu.com##UL[class^="game_tab"]
 tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
 tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
 tieba.baidu.com##LI[id^="spreadad_"]
 tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
+tieba.baidu.com##DIV[class^="lot_wrap"]
+tieba.baidu.com##LI[class="thread_notice clearfix thread_1st"]
 ||bdstatic.com/api_hao123AdvHeader.js
 ||bdstatic.com/cms/mbox/audioad/AudioAd.js
 ||bdstatic.com/pc_static/detail/game_promotion/
@@ -79,6 +82,8 @@ tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
 ||bdstatic.com/tb/static-encourage/widget/worldcup_guess_item/images/wish_card_back_
 ||bdstatic.com/tb/static-ucenter/img/cont_sign_card.gif
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
+||tb1.bdstatic.com/tb/static-comforum/widget/history_game/$domain=tieba.baidu.com
+||wanba.baidu.com$domain=tieba.baidu.com
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
