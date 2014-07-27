@@ -81,7 +81,7 @@ tieba.baidu.com##LI[id^="spreadad_"]
 tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
 tieba.baidu.com##DIV[class^="lot_wrap"]
 tieba.baidu.com##LI[class="thread_notice clearfix thread_1st"]
-tieba.baidu.com##DIV[class="r-top-sec"]
+tieba.baidu.com##DIV[class="per_list j_per_list per_list_index"]
 tieba.baidu.com##DIV[id="game_item"]
 tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
 ||tieba.baidu.com/tb/cms/game_test/

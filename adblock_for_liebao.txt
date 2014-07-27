@@ -68,7 +68,7 @@ www.imanhua.com/inc/update2.html
 ##li[class^="clearfix spreadad spreadad_"]	$d=tieba.baidu.com
 ##div[class^="lot_wrap"]	$d=tieba.baidu.com
 ##li[class="thread_notice clearfix thread_1st"]	$d=tieba.baidu.com
-##div[class="r-top-sec"]	$d=tieba.baidu.com
+##div[class="per_list j_per_list per_list_index"]	$d=tieba.baidu.com
 ##div[id="game_item"]	$d=tieba.baidu.com
 ##li[class="img_list_2pic tbui_slideshow_slide"]	$d=tieba.baidu.com
 /^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
