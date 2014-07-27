@@ -33,14 +33,12 @@
 !--广东电信
 /^http:\/\/.*/js\/utils51\.js.*/
 /^http:\/\/.*/js\/utils78\.js.*/
-
 ! 电信dns挟持页
 ##div[class="skeyword"]	$d=dnserror.cn
 ##div[class="error"]	$d=dnserror.cn
 ##H2	$d=dnserror.cn
 /^http:\/\/.*\.dnserror\.cn.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
 /^http:\/\/.*\.ctrip\.com.*/	$d=dnserror.cn
-
 !电脑上wap网pctowap去广告
 /^http:\/\/.*pctowap\.com\/.*\/bbs\.js.*/
 /^http:\/\/.*doguo\.com\/api\/vip_discount\.js.*/
@@ -50,8 +48,6 @@ i.doguo.com/api/vip_discount.js
 ##div[class$="bbs"]	$d=pctowap.com
 ##div[class*="dowap_ads"]	$d=pctowap.com
 ##div[class*="bdlikebutton"]	$d=pctowap.com
-
-
 !爱漫网广告
 ##div[id^="imh"]	$d=imanhua.com
 ##div[id="uptList"]	$d=imanhua.com
@@ -59,16 +55,6 @@ i.doguo.com/api/vip_discount.js
 ##div[id="share"]	$d=imanhua.com
 ##H6			$d=imanhua.com
 www.imanhua.com/inc/update2.html
-
-!网通广告，联通胁持太恶心了，将整个网页都嵌入了iframe中
-!屏蔽只能重载网页，老人不会这个，没办法只能容忍
-!/^http:\/\/.*\/admode.js/
-##div[id="floatAd"]
-!ad.gx10010.com/*
-!##iframe[src^="http://221.7.244.118"]
-!##iframe[src^="http://221.7.244.119"]
-!##iframe[src^="ad.gx10010.com/"]
-
 ! 百度贴吧
 ##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
 ##div[id="top_banner"]		$d=tieba.baidu.com
@@ -82,6 +68,9 @@ www.imanhua.com/inc/update2.html
 ##li[class^="clearfix spreadad spreadad_"]	$d=tieba.baidu.com
 ##div[class^="lot_wrap"]	$d=tieba.baidu.com
 ##li[class="thread_notice clearfix thread_1st"]	$d=tieba.baidu.com
+##div[class="r-top-sec"]	$d=tieba.baidu.com
+##div[id="game_item"]	$d=tieba.baidu.com
+##li[class="img_list_2pic tbui_slideshow_slide"]	$d=tieba.baidu.com
 /^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
 /^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
 /^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
@@ -92,8 +81,6 @@ www.imanhua.com/inc/update2.html
 /^http:\/\/.*bdstatic\.com\/tb\/zt\/tengfei\/gzdialog\.jpg.*/
 /^http:\/\/.*bdstatic\.com\/tb\/static-comforum\/widget\/history_game\/.*/	$d=tieba.baidu.com	
 /^http:\/\/.*wanba\.baidu\.com\/.*/	$d=tieba.baidu.com
-
-
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
 !百度顶部冒泡广告
@@ -120,14 +107,12 @@ www.imanhua.com/inc/update2.html
 /^http:\/\/.*ifengimg\.com\/ifeng\/sources\/.*/	$t=script
 !!移除凤凰网的ip定位
 http://region.ifeng.com/get?format=js&callback=setRegionCookies
-
 !新闻广告
 ##[href^="http://sh.qihoo.com/?src="]
 ##aside[class="col-extra"]		$d=net.chinabyte.com
 ##div[class="boxC-RB"]			$d=pic.news.sohu.com
 ##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
 ##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
-
 !欺骗性广告
 ##table[id="table5943"]	$d=26333.com
 ##table[id="table5772"]	$d=26333.com
@@ -141,13 +126,11 @@ a[href="http://www.99477.com/hkxx.htm"]
 /^http:\/\/.*\.hg16558\.com\.*/
 ##iframe[id="mainFrame"]	$d=hg16558.com
 hg16558.com	$t=image|script
-
 !http://www.26333.com/
 ##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
 ##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
 26333.com/bbs/tu3/m960X50.gif
 /:\/\/([^\/]+\.)?51yes\.com/
-
 ! 红旅广告
 ##div[id="1"][class="ad1960"]		$d=hltm.cc
 ##div[id^="__QY"]	$d=hltm.cc
@@ -155,7 +138,6 @@ hg16558.com	$t=image|script
 ##div[id="4"]		$d=hltm.cc
 ##div[id="5"]		$d=hltm.cc
 ##div[class*="ad"]	$d=hltm.cc
-
 ! verycd广告
 ##div[id="top_ad"]	$d=verycd.com
 ##li[id="2422-ad"]	$d=verycd.com
@@ -168,33 +150,26 @@ hg16558.com	$t=image|script
 ##div[class^="more_goods"]	$d=verycd.com
 ##div[id^="PAGE_AD_"]	$d=verycd.com
 ##div[class="side_ads"]	$d=verycd.com
-
 ! 酷6
 ##a[href^="//adrs.sdo.com/ADRefererSystem/adjump.aspx"]	$d=v.ku6.com
 ##a[href^="//xiu.ku6.com/adgate"]	$d=v.ku6.com
 ##div[class="award gif"]	$d=v.ku6.com
 ! 优酷
 ##div[id^="ad_"]	$d=v.youku.com
-
 ! PPS
 ##div[id="hot-send"]	$d=v.pps.tv
-
 !红豆
 /^http:\/\/user\.hongdou\.gxnews\.com\.cn\/upload\/index\//	$t=object
-
 !www.sendspace.com
 ##div[id="sswxdownload"]	$d=sendspace.com
 ##div[class^="ads_holde"]	$d=sendspace.com
 ##a[class="ads_remove"]	$d=sendspace.com
 /^http:\/\/.*\.sendspace\.com\/defaults\/framer\.html.*/ $d=sendspace.com
-
 !--------------------------------------
-
 ! 去除cnzz网站统计
 /^http:\/\/.*\.cnzz\.com.*/	
 ! 去除百度统计
 /^http:\/\/.*hm\.baidu\.com\/h.*/	
-
 !广告网
 /^http:\/\/.*js\.2529\.com.*/
 /^http:\/\/.*\.tanx\.com\.com.*/
@@ -216,7 +191,6 @@ hg16558.com	$t=image|script
 /^http:\/\/.*googletagservices\.com\/tag\/js\/gpt\.js.*/	$t=script	
 /^http:\/\/.*\.adk2\.co\/.*/
 /^http:\/\/.*\.vitalads\.net\/.*/
-
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/
 /.*\/ad\/.*/
