@@ -1,8 +1,8 @@
 ﻿![Liebao Adblock Rule]
 !Title:Rules for version 3.8 of liebao browser
 !Author:konghome520
-!Updated:2014-07-24 16:40
-!Version:3.0
+!Updated:2014-07-27 16:40
+!Version:3.1
 !Description:Rules for konghome520                                           
 !Url:https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/adblock_for_liebao.txt
 
@@ -33,6 +33,13 @@
 !--广东电信
 /^http:\/\/.*/js\/utils51\.js.*/
 /^http:\/\/.*/js\/utils78\.js.*/
+
+! 电信dns挟持页
+##div[class="skeyword"]	$d=dnserror.cn
+##div[class="error"]	$d=dnserror.cn
+##H2	$d=dnserror.cn
+/^http:\/\/.*\.dnserror\.cn.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
+/^http:\/\/.*\.ctrip\.com.*/	$d=dnserror.cn
 
 !电脑上wap网pctowap去广告
 /^http:\/\/.*pctowap\.com\/.*\/bbs\.js.*/
@@ -175,12 +182,13 @@ hg16558.com	$t=image|script
 !红豆
 /^http:\/\/user\.hongdou\.gxnews\.com\.cn\/upload\/index\//	$t=object
 
-! 电信dns挟持页
-##div[class="skeyword"]	$d=dnserror.cn
-##div[class="error"]	$d=dnserror.cn
-##H2	$d=dnserror.cn
-/^http:\/\/.*\.dnserror\.cn.*/	$t=image|script|object|stylesheet|xmlhttprequest|document
-/^http:\/\/.*\.ctrip\.com.*/	$d=dnserror.cn
+!www.sendspace.com
+##div[id="sswxdownload"]	$d=sendspace.com
+##div[class^="ads_holde"]	$d=sendspace.com
+##a[class="ads_remove"]	$d=sendspace.com
+/^http:\/\/.*\.sendspace\.com\/defaults\/framer\.html.*/ $d=sendspace.com
+
+!--------------------------------------
 
 ! 去除cnzz网站统计
 /^http:\/\/.*\.cnzz\.com.*/	
@@ -206,7 +214,8 @@ hg16558.com	$t=image|script
 /^http:\/\/s\.lianmeng\.360\.cn\/.*/
 /^http:\/\/.*\.cloudfront\.net\/atrk\.js.*/
 /^http:\/\/.*googletagservices\.com\/tag\/js\/gpt\.js.*/	$t=script	
-
+/^http:\/\/.*\.adk2\.co\/.*/
+/^http:\/\/.*\.vitalads\.net\/.*/
 
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/

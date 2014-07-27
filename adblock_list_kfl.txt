@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-24 16:43
+!  Last Modified:  2014-07-27 16:43
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
@@ -26,6 +26,14 @@
 !##iframe[src^="http://221.7.244.118"]
 !##iframe[src^="ad.gx10010.com/"]
 !##iframe[src^="http://221.7.244.119"]
+
+! 电信dns挟持页
+dnserror.cn##DIV[class="skeyword"]
+||dnserror.cn
+||ctrip.com$domain=dnserror.cn
+dnserror.cn##DIV[class="error"]
+dnserror.cn##H2
+
 ! 爱漫网广告
 www.imanhua.com##div[id^="imh"]
 www.imanhua.com/inc/update2.html
@@ -121,17 +129,18 @@ v.pps.tv##div[id="hot-send"]
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
 
-! 电信dns挟持页
-dnserror.cn##DIV[class="skeyword"]
-||dnserror.cn
-||ctrip.com$domain=dnserror.cn
-dnserror.cn##DIV[class="error"]
-dnserror.cn##H2
+!www.sendspace.com
+www.sendspace.com##DIV[id="sswxdownload"]
+||sendspace.com/defaults/framer.html$domain=sendspace.com
+www.sendspace.com##DIV[class^="ads_holde"]
+www.sendspace.com##A[class="ads_remove"]
+
+!--------------------------------------
+
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
 ! 京东
 ||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
-
 
 !广告网
 ||js.2529.com
@@ -142,3 +151,5 @@ dnserror.cn##H2
 ||yigao.com^$third-party
 ||cloudfront.net/atrk.js
 ||crs.baidu.com^
+||adk2.co$third-party
+||vitalads.net$third-party
