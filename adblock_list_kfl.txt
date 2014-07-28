@@ -72,6 +72,8 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 ||doguo.com/api/vip_discount.js
 ||pctowap.com/dowap2/js/jquery.js
 ||pctowap.com/plug/*/status.php
+! 百度
+baidu.com##DIV[class="sam_iebrowser_banner"]
 ! 百度贴吧
 tieba.baidu.com##DIV[class^="game_forum_in"]
 tieba.baidu.com##UL[class^="game_tab"]

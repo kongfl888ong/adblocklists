@@ -55,6 +55,8 @@ i.doguo.com/api/vip_discount.js
 ##div[id="share"]	$d=imanhua.com
 ##H6			$d=imanhua.com
 www.imanhua.com/inc/update2.html
+! 百度
+##div[class="sam_iebrowser_banner"]	$d=baidu.com
 ! 百度贴吧
 ##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
 ##div[id="top_banner"]		$d=tieba.baidu.com
