@@ -12,6 +12,7 @@
 !那会导致其他规则失效
 !一旦元素位于iframe中，限定网域的隐藏元素规则就会失效 -201305
 !最汗颜的事，标签或属性竟不支持大写如DIV --201305
+!^表示正则匹配开始，$表示匹配结尾（结束）
 
 !--中国电信
 /^http:\/\/.*/clicktotal\/ClickTotal\.js.*/
@@ -126,14 +127,31 @@ http://region.ifeng.com/get?format=js&callback=setRegionCookies
 a[href="http://www.99477.com/hkxx.htm"]
 ##img[src$="m960X50.gif"]
 ##table[id="table6175"]	$d=726666.com
-/^http:\/\/.*\.hg16558\.com\.*/
-##iframe[id="mainFrame"]	$d=hg16558.com
-hg16558.com	$t=image|script
+##img[width="1004"]	$d=www.34506.com
+##img[width="1000"]	$d=www.34506.com
+##img[width="960"]	$d=www.34506.com
+##img[width="1004"]	$d=www.lhcyjy.com
+##img[width="1000"]	$d=www.lhcyjy.com
+##img[width="960"]	$d=www.lhcyjy.com
+##img[src="/images/hksz.gif"]	$d=www.9769.com
+##table[id="table42"]	$d=www.9769.com
+##img[src="http://www.38636.com/images/ym1.gif"]	$d=www.38636.com
+##img[src="images/qian.gif"]	$d=www.38636.com
+##img[src="images/55555.gif"]	$d=www.38636.com
+##img[src="images/ym.gif"]	$d=www.38636.com
+##img[src="images/hm.gif"]	$d=www.38636.com
+/^http:\/\/.*\4087\.com\/img\/.*/	$t=object
+/^http:\/\/.*\7049\.com\/100x100\.gif.*/
+!皇冠网
+/^.*hg(\d)+.*$/
+##a[href*="hg"]
+##a[href^="http://www.hg98."]
 !http://www.26333.com/
 ##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
+##[href="http://www.128789.com/cn/register"]	$d=www.26333.com
 ##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
+##table[id="table5943"]	$d=www.26333.com
 26333.com/bbs/tu3/m960X50.gif
-/:\/\/([^\/]+\.)?51yes\.com/
 ! 红旅广告
 ##div[id="1"][class="ad1960"]		$d=hltm.cc
 ##div[id^="__QY"]	$d=hltm.cc
@@ -194,6 +212,7 @@ hg16558.com	$t=image|script
 /^http:\/\/.*googletagservices\.com\/tag\/js\/gpt\.js.*/	$t=script	
 /^http:\/\/.*\.adk2\.co\/.*/
 /^http:\/\/.*\.vitalads\.net\/.*/
+/:\/\/([^\/]+\.)?51yes\.com/
 ! 通用全局屏蔽
 /.*\/tuiguang\/.*/
 /.*\/ad\/.*/

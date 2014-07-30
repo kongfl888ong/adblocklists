@@ -73,7 +73,7 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 ||pctowap.com/dowap2/js/jquery.js
 ||pctowap.com/plug/*/status.php
 ! 百度
-baidu.com##DIV[class="sam_iebrowser_banner"]
+www.baidu.com##DIV[class="sam_iebrowser_banner"]
 ||pups.baidu.com/advert/js/advert.js
 ! 百度贴吧
 tieba.baidu.com##DIV[class^="game_forum_in"]
@@ -127,6 +127,9 @@ pic.news.sohu.com##DIV[class="boxC-RB"]
 ent.ifeng.com##ul[class="pics_2 clearfix"]
 weibo.com##div[id="Pl_Official_MyMicroworld__3"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
+!皇冠网
+/^.*hg(\d)+.*$/
+##a[href*="hg"]
 
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
