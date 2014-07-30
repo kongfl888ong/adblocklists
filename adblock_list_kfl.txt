@@ -74,6 +74,7 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 ||pctowap.com/plug/*/status.php
 ! 百度
 www.baidu.com##DIV[class="sam_iebrowser_banner"]
+www.baidu.com##div[id="inc_browser_banner"]
 ||pups.baidu.com/advert/js/advert.js
 ! 百度贴吧
 tieba.baidu.com##DIV[class^="game_forum_in"]
