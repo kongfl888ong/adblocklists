@@ -75,6 +75,7 @@ pctowap.com##img[src^="/img/bs"][src$="jpg"]
 ! 百度
 www.baidu.com##DIV[class="sam_iebrowser_banner"]
 www.baidu.com##div[id="inc_browser_banner"]
+www.baidu.com##A[href="http://w.x.baidu.com/go/mini/8/10000020"]
 ||pups.baidu.com/advert/js/advert.js
 ! 百度贴吧
 tieba.baidu.com##DIV[class^="game_forum_in"]
@@ -88,6 +89,9 @@ tieba.baidu.com##LI[class="thread_notice clearfix thread_1st"]
 tieba.baidu.com##DIV[class="per_list j_per_list per_list_index"]
 tieba.baidu.com##DIV[id="game_item"]
 tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
+tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
+tieba.baidu.com##DIV[class="item live_show"]
+tieba.baidu.com##DIV[class="member_rank"]
 ||tieba.baidu.com/tb/cms/game_test/
 ||bdstatic.com/api_hao123AdvHeader.js
 ||bdstatic.com/cms/mbox/audioad/AudioAd.js

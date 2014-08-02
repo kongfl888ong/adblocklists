@@ -59,6 +59,7 @@ www.imanhua.com/inc/update2.html
 ! 百度
 ##div[class="sam_iebrowser_banner"]	$d=baidu.com
 ##div[id="inc_browser_banner"]	$d=baidu.com
+##a[href="http://w.x.baidu.com/go/mini/8/10000020"]	$d=www.baidu.com
 ! 百度贴吧
 ##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
 ##div[id="top_banner"]		$d=tieba.baidu.com
@@ -75,6 +76,9 @@ www.imanhua.com/inc/update2.html
 ##div[class="per_list j_per_list per_list_index"]	$d=tieba.baidu.com
 ##div[id="game_item"]	$d=tieba.baidu.com
 ##li[class="img_list_2pic tbui_slideshow_slide"]	$d=tieba.baidu.com
+##img[src="http://img.baidu.com/img/iknow/qb/select-search.png"]	$d=tieba.baidu.com
+##div[class="item live_show"]	$d=tieba.baidu.com
+##div[class="member_rank"]	$d=tieba.baidu.com
 /^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
 /^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
 /^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
