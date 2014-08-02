@@ -59,7 +59,14 @@ www.imanhua.com/inc/update2.html
 ! 百度
 ##div[class="sam_iebrowser_banner"]	$d=baidu.com
 ##div[id="inc_browser_banner"]	$d=baidu.com
-##a[href="http://w.x.baidu.com/go/mini/8/10000020"]	$d=www.baidu.com
+##a[href="http://w.x.baidu.com/go/mini/"]	$d=baidu.com
+##a[class="sam_iebrowser_download"]	$d=baidu.com
+##i[class="c-icon sam_baiduapp_logo"]	$d=baidu.com
+/^http:\/\/.*\.bdstatic\.com\/.*\/ie6banner_.*\.js.*/
+/^http:\/\/s1\.bdstatic\.com\/r\/www\/cache\/static\/jquery\/.*/ 
+http://www.baidu.com/ur/submit/urreward
+baidu.com/cache/fpid/o.swf
+
 ! 百度贴吧
 ##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
 ##div[id="top_banner"]		$d=tieba.baidu.com
@@ -207,6 +214,7 @@ http://www.26333.com/tu/jiashu.gif
 /^http:\/\/.*\.tanx\.com\.com.*/
 /^http:\/\/bdimg\.share\.baidu\.com\/static\/api\/js\/share.js\?v=.*/
 /^http:\/\/.*nsclick\.baidu\.com.*/
+/^http:\/\/.*eclick\.baidu\.com.*/
 /^http:\/\/cpro\.baidustatic\.com\/.*/
 /^http:\/\/cpro\.baidu\.com\/.*/
 /^http:\/\/crs\.baidu\.com\/.*/
