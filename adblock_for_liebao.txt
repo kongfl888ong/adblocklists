@@ -123,9 +123,6 @@ http://region.ifeng.com/get?format=js&callback=setRegionCookies
 ##ul[class="pics_2 clearfix"]		$d=ent.ifeng.com
 ##div[id="Pl_Official_MyMicroworld__3"]	$d=weibo.com
 !欺骗性广告
-##table[id="table5943"]	$d=26333.com
-##table[id="table5772"]	$d=26333.com
-##img[src="m960X50.gif"]	$d=26333.com
 /^http:\/\/.*\.41090\.com\.*/
 ##img[width="979"][height="64"]	$d=hy49.com
 /^http:\/\/.*\.99477\.com\/hkxx\.htm/
@@ -147,16 +144,25 @@ a[href="http://www.99477.com/hkxx.htm"]
 ##img[src="images/hm.gif"]	$d=www.38636.com
 /^http:\/\/.*\4087\.com\/img\/.*/	$t=object
 /^http:\/\/.*\7049\.com\/100x100\.gif.*/
+/^http:\/\/.*\.4568\.com\.*/
 !皇冠网
 /^.*hg(\d)+.*$/
 ##a[href*="hg"]
 ##a[href^="http://www.hg98."]
 !http://www.26333.com/
-##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
-##[href="http://www.128789.com/cn/register"]	$d=www.26333.com
-##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
+##table[id="table5943"]	$d=26333.com
+##table[id="table5772"]	$d=26333.com
 ##table[id="table5943"]	$d=www.26333.com
-26333.com/bbs/tu3/m960X50.gif
+##img[src="m960X50.gif"]	$d=26333.com
+##[src="http://www.26333.com/bbs/tu3/m960X50.gif"]	$d=26333.com
+##[href^="http://www.128789.com/"]	$d=www.26333.com
+##[href="http://www.4568.com/?Intr=69288"]	$d=26333.com
+http://www.26333.com/bbs/img/xy.gif
+http://www.26333.com/bbs/img/regsiter_t09.gif
+http://www.26333.com/tu/jiashu.gif
+/^http:\/\/.*26333\.com\/.*\/760x90\.gif.*/
+/^http:\/\/.*26333\.com\/.*\/m960X50\.gif.*/
+
 ! 红旅广告
 ##div[id="1"][class="ad1960"]		$d=hltm.cc
 ##div[id^="__QY"]	$d=hltm.cc
