@@ -176,3 +176,6 @@ www.sendspace.com##A[class="ads_remove"]
 ||adk2.co$third-party
 ||vitalads.net$third-party
 ||eclick.baidu.com
+
+!白名单
+@@|https://fireeye.ijinshan.com/|$document
