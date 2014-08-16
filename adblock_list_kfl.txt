@@ -99,6 +99,14 @@ tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
 tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
 tieba.baidu.com##DIV[class="item live_show"]
 tieba.baidu.com##DIV[class="member_rank"]
+tieba.baidu.com##IMG[src="http://tb1.bdstatic.com/tb/lklzh.jpg"]
+tieba.baidu.com##DIV[id="encourage_entry"]
+||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
+||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
+||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
+||tieba.baidu.com/tb/cms/game_rank/$domain=tieba.baidu.com,image
+||tieba.baidu.com/tb/static-comforum/img/history_game/
+||bdstatic.com/tb/*/live_show_square_*.png
 ||tieba.baidu.com/tb/cms/game_test/
 ||bdstatic.com/api_hao123AdvHeader.js
 ||bdstatic.com/cms/mbox/audioad/AudioAd.js
@@ -179,3 +187,5 @@ www.sendspace.com##A[class="ads_remove"]
 
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
+@@|http://c2.yunpan.360.cn/my|$document
+@@||yunpan.360.cn/$document
