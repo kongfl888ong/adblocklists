@@ -103,7 +103,7 @@ baidu.com/cache/fpid/o.swf
 /^http:\/\/.*bdstatic\.com\/tb\/\*\/tdou_.*\.js.*/	
 /^http:\/\/.*bdstatic\.com\/tb\/\*\/live_show_square_.*\.png.*/
 /^http:\/\/.*tieba.baidu.com\/tb\/cms\/game_.*/
-tieba.baidu.com/tb/cms/game_rank/	$timage
+tieba.baidu.com/tb/cms/game_rank/	$t=image
 
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
