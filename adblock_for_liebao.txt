@@ -67,6 +67,7 @@ www.imanhua.com/inc/update2.html
 http://www.baidu.com/ur/submit/urreward
 baidu.com/cache/fpid/o.swf
 
+
 ! 百度贴吧
 ##a[id="j_dimension"][class="dimension_code dimension_code_old"]	$d=tieba.baidu.com
 ##div[id="top_banner"]		$d=tieba.baidu.com
@@ -86,6 +87,8 @@ baidu.com/cache/fpid/o.swf
 ##img[src="http://img.baidu.com/img/iknow/qb/select-search.png"]	$d=tieba.baidu.com
 ##div[class="item live_show"]	$d=tieba.baidu.com
 ##div[class="member_rank"]	$d=tieba.baidu.com
+##div[id="com_userbar"]	$d=tieba.baidu.com
+##div[id="encourage_entry"]	$d=tieba.baidu.com
 /^http:\/\/.*bdstatic\.com\/api_hao123AdvHeader\.js.*/
 /^http:\/\/.*bdstatic\.com\/cms\/mbox\/audioad\/AudioAd\.js.*/
 /^http:\/\/.*bdstatic\.com\/pc_static\/detail\/game_promotion\/.*/
@@ -96,6 +99,12 @@ baidu.com/cache/fpid/o.swf
 /^http:\/\/.*bdstatic\.com\/tb\/zt\/tengfei\/gzdialog\.jpg.*/
 /^http:\/\/.*bdstatic\.com\/tb\/static-comforum\/widget\/history_game\/.*/	$d=tieba.baidu.com	
 /^http:\/\/.*wanba\.baidu\.com\/.*/	$d=tieba.baidu.com
+/^http:\/\/.*static\.tieba\.baidu\.com\/tb\/img\/track\.gif.*/	$d=tieba.baidu.com
+/^http:\/\/.*bdstatic\.com\/tb\/\*\/tdou_.*\.js.*/	
+/^http:\/\/.*bdstatic\.com\/tb\/\*\/live_show_square_.*\.png.*/
+/^http:\/\/.*tieba.baidu.com\/tb\/cms\/game_.*/
+tieba.baidu.com/tb/cms/game_rank/	$timage
+
 ! 百度我的主页广告
 ##section[class="mod-side-item"] 	$d=hi.baidu.com
 !百度顶部冒泡广告
