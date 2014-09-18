@@ -103,6 +103,9 @@ tieba.baidu.com##IMG[src="http://tb1.bdstatic.com/tb/lklzh.jpg"]
 tieba.baidu.com##DIV[id="encourage_entry"]
 tieba.baidu.com##LI[class="u_tbmall"]
 tieba.baidu.com##LI[class="u_tshow"]
+tieba.baidu.com##DIV[class="save_face_bg save_face_bg_1"]
+www.baidu.com##DIV[class="s-skin-activity-tips"]
+tieba.baidu.com##DIV[id="forum_recommend"]
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
@@ -121,6 +124,7 @@ tieba.baidu.com##LI[class="u_tshow"]
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||tb1.bdstatic.com/tb/static-comforum/widget/history_game/$domain=tieba.baidu.com
 ||wanba.baidu.com$domain=tieba.baidu.com
+
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
@@ -166,6 +170,9 @@ www.sendspace.com##DIV[id="sswxdownload"]
 ||sendspace.com/defaults/framer.html$domain=sendspace.com
 www.sendspace.com##DIV[class^="ads_holde"]
 www.sendspace.com##A[class="ads_remove"]
+
+haotui.com##TABLE[class="haotuitoutiao"]
+www.zdfans.com##IMG[src^="http://www.zdfans.com/webad/"]
 
 !--------------------------------------
 
