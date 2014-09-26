@@ -85,7 +85,8 @@ http://www.baidu.com/ur/submit/urreward
 ||baidu.com/cache/fpid/o.swf
 ||pups.baidu.com/advert/js/advert.js
 ! 百度贴吧
-tieba.baidu.com##DIV[class^="game_forum_in"]
+tieba.baidu.com##DIV[id^="game_"]
+tieba.baidu.com##DIV[class^="game_"]
 tieba.baidu.com##UL[class^="game_tab"]
 tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
 tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
@@ -94,19 +95,19 @@ tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
 tieba.baidu.com##DIV[class^="lot_wrap"]
 tieba.baidu.com##LI[class="thread_notice clearfix thread_1st"]
 tieba.baidu.com##DIV[class="per_list j_per_list per_list_index"]
-tieba.baidu.com##DIV[id="game_item"]
 tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
 tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
 tieba.baidu.com##DIV[class="item live_show"]
 tieba.baidu.com##DIV[class="member_rank"]
 tieba.baidu.com##IMG[src="http://tb1.bdstatic.com/tb/lklzh.jpg"]
 tieba.baidu.com##DIV[id="encourage_entry"]
-tieba.baidu.com##LI[class="u_tbmall"]
-tieba.baidu.com##LI[class="u_tshow"]
+tieba.baidu.com##LI[class^="u_tbmall"]
+tieba.baidu.com##LI[class^="u_tshow"]
 tieba.baidu.com##DIV[class="save_face_bg save_face_bg_1"]
 www.baidu.com##DIV[class="s-skin-activity-tips"]
 tieba.baidu.com##DIV[id="forum_recommend"]
 tieba.baidu.com##DIV[class^="spage_liveshow_slide"]
+tieba.baidu.com##DIV[class^="platact_"]
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
