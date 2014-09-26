@@ -106,6 +106,7 @@ tieba.baidu.com##LI[class="u_tshow"]
 tieba.baidu.com##DIV[class="save_face_bg save_face_bg_1"]
 www.baidu.com##DIV[class="s-skin-activity-tips"]
 tieba.baidu.com##DIV[id="forum_recommend"]
+tieba.baidu.com##DIV[class^="spage_liveshow_slide"]
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
@@ -124,6 +125,8 @@ tieba.baidu.com##DIV[id="forum_recommend"]
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||tb1.bdstatic.com/tb/static-comforum/widget/history_game/$domain=tieba.baidu.com
 ||wanba.baidu.com$domain=tieba.baidu.com
+||xiu8.com$third-party
+||image.yy.com$third-party
 
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
