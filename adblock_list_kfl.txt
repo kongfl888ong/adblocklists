@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-07-27 16:43
+!  Last Modified:  2014-09-26 15:43
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
@@ -171,8 +171,11 @@ www.sendspace.com##DIV[id="sswxdownload"]
 www.sendspace.com##DIV[class^="ads_holde"]
 www.sendspace.com##A[class="ads_remove"]
 
-haotui.com##TABLE[class="haotuitoutiao"]
+haotui.com##TABLE[class^="haotuitoutiao"]
 www.zdfans.com##IMG[src^="http://www.zdfans.com/webad/"]
+diggbt.com##IFRAME[class^="bdSug_sd"]
+!远景beta
+||cdn.pcbeta.js.inimc.com//data/cache/jquery.js
 
 !--------------------------------------
 
