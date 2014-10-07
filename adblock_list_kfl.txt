@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-09-26 15:43
+!  Last Modified:  2014-10-08 02:39
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
