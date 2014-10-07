@@ -79,8 +79,8 @@ www.baidu.com##A[href^="http://w.x.baidu.com/go/"]
 www.baidu.com##A[class="sam_iebrowser_download"]
 www.baidu.com##i[class="c-icon sam_baiduapp_logo"]
 ||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
-!加了之句之后，搜索建议就会消失，图片结构也不会显示，一下就回到了原始时代
-||bdstatic.com/r/www/cache/static/jquery/ 
+!加了下面一句之后，搜索建议就会消失，图片结构也不会显示，一下就回到了原始时代（新版chrome不适用，会搜索无结果）
+!||bdstatic.com/r/www/cache/static/jquery/ 
 http://www.baidu.com/ur/submit/urreward
 ||baidu.com/cache/fpid/o.swf
 ||pups.baidu.com/advert/js/advert.js
