@@ -150,9 +150,16 @@ chinadaily.com.cn##div[id^="qihu"]
 ||himg2.huanqiu.com/statics/js/adCode.js
 huanqiu.com##div[class^="hdPic"]
 ! 凤凰网
+news.ifeng.com##A[href^="http://dolphin.deliver.ifeng.com/"]
 ||ifengimg.com/ifeng/sources/	$script
 !!移除凤凰网的ip定位
 |http://region.ifeng.com/get?format=js&callback=setRegionCookies
+!点心新闻
+www.dianxinnews.com##DIV[id^="jinrituijian"]
+www.dianxinnews.com##DIV[id^="jingcaitupian"]
+www.dianxinnews.com##A[href^="http://jtscsp.ntxqw.com"]
+www.dianxinnews.com##UL[id^="xinwentuji"]
+
 
 !新闻广告
 ##[href^="http://sh.qihoo.com/?src="][href$="#resoutu"]
