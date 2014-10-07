@@ -151,6 +151,9 @@ chinadaily.com.cn##div[id^="qihu"]
 huanqiu.com##div[class^="hdPic"]
 ! 凤凰网
 ifeng.com##A[href^="http://dolphin.deliver.ifeng.com/"]
+ifeng.com##A[href^="http://www.123baofeng.com/"]
+ifeng.com##A[href^="http://www.hao123.com/"]
+v.ifeng.com##A[href^="http://v.ifeng.com/bd/"][href$="/translate.shtml"]
 ||ifengimg.com/ifeng/sources/	$script
 !!移除凤凰网的ip定位
 |http://region.ifeng.com/get?format=js&callback=setRegionCookies
