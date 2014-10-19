@@ -130,7 +130,8 @@ tieba.baidu.com##DIV[id*="bdyx_tips"]
 ||bdstatic.com/tb/static-ucenter/img/cont_sign_card.gif
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
 ||tb1.bdstatic.com/tb/static-comforum/widget/history_game/$domain=tieba.baidu.com
-||wanba.baidu.com$domain=tieba.baidu.com
+||wanba.baidu.com/*$domain=tieba.baidu.com
+||youxi.baidu.com/*$domain=tieba.baidu.com
 ||xiu8.com$third-party
 ||image.yy.com$third-party
 ||youxi.baidu.com/tips/*
