@@ -1,12 +1,12 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-10-19 21:30
+!  Last Modified:  2014-10-23 07:30
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
 !--中国电信
 /clicktotal/ClickTotal.js
-||189.cn/dns/
+||189.cn/dns/*$third-party
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
 ||gd.189.cn/push/$popup,third-party
@@ -14,6 +14,8 @@
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.ct10000.com^*/push/$popup,third-party
 ||jxad.jx163.com^
+||113.17.188.44^$third-party
+||202.102.100.100^$third-party
 !--联通
 ||kdly.net^$third-party
 !--广东电信
