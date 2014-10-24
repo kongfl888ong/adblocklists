@@ -1,6 +1,7 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
 !  Last Modified:  2014-10-24 21:30
+!  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
 !--------------------------------------------------
