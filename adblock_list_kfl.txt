@@ -183,7 +183,7 @@ ent.ifeng.com##ul[class="pics_2 clearfix"]
 weibo.com##div[id="Pl_Official_MyMicroworld__3"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
 !皇冠网
-/^.*hg(\d)+.*$/
+!/^.*hg(\d)+.*$/
 ##a[href*="hg"]
 
 ! ku6 酷6
