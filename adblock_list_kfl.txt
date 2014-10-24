@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-10-24 22:10
+!  Last Modified:  2014-10-24 23:10
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
@@ -213,6 +213,8 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||cnzz.com$third-party
 ! 京东
 ||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
+! 谷歌统计
+||google-analytics.com^
 
 !广告网
 ||js.2529.com
