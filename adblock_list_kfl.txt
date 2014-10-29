@@ -233,3 +233,4 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 @@|https://fireeye.ijinshan.com/|$document
 @@|http://c2.yunpan.360.cn/my|$document
 @@||yunpan.360.cn/$document
+@@||yz.chsi.com.cn^$document
