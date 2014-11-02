@@ -44,6 +44,7 @@ www.imanhua.com##div[id="uptList"]
 www.imanhua.com##div[class="bar"]
 www.imanhua.com##div[id="share"]
 www.imanhua.com##H6
+imanhua.com##div[class="w980"][style*="height:514px"]
 ! verycd广告
 www.verycd.com##li[id="2422-ad"]
 www.verycd.com##DIV[id="BAIDU_PAGE_AD_1"]
