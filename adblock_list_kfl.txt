@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-11-2 16:10
+!  Last Modified:  2014-11-17 15:10
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
@@ -208,6 +208,9 @@ www.zdfans.com##IMG[src^="http://www.zdfans.com/webad/"]
 diggbt.com##IFRAME[class^="bdSug_sd"]
 !远景beta
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js
+
+! 网易163
+163.com##div[id*="NodesWrap"]
 
 !--------------------------------------
 
