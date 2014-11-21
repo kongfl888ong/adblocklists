@@ -120,6 +120,7 @@ tieba.baidu.com##DIV[id*="bdyx_tips"]
 tieba.baidu.com##DIV[class*="firework_sender"]
 tieba.baidu.com##div[id*="global_notice_wrap"]
 tieba.baidu.com##div[class*="frs_act_repost_"]
+tieba.baidu.com##div[class*="live"]
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
@@ -144,6 +145,8 @@ tieba.baidu.com##div[class*="frs_act_repost_"]
 ||youxi.baidu.com/tips/*
 ||bdstatic.com/tb/*/firework/swf/*
 ||static.pay.baidu.com/*/tuisong/*$domain=tieba.baidu.com
+||bdstatic.com/*/static-liveshow/*$domain=tieba.baidu.com
+||static.pay.baidu.com/tequan/tuisong/images/*
 
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
