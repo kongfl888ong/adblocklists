@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-11-21 15:10
+!  Last Modified:  2014-11-23 20:10
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
@@ -190,7 +190,7 @@ weibo.com##div[id="Pl_Official_MyMicroworld__3"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
 !皇冠网
 !/^.*hg(\d)+.*$/
-##a[href^="http://"][href*="hg"]
+##a[href^="http://"][href^="hg"]$domain=~baidu.com|~sina.com|~weibo.com|~weibo.cn|~so.com|~163.com|~github.com|~ifeng.com|~youku.com|~tudou.com|~letv.com|~iqiyi.com|~qq.com|~pptv.com|~xunlei.com|~kankan.com|~360.cn|~bdstatic.com
 
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
