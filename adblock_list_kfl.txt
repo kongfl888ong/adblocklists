@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-11-27 13:10
+!  Last Modified:  2014-12-3 33:10
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
@@ -82,6 +82,7 @@ www.baidu.com##div[id="inc_browser_banner"]
 www.baidu.com##A[href^="http://w.x.baidu.com/go/"]
 www.baidu.com##A[class="sam_iebrowser_download"]
 www.baidu.com##i[class="c-icon sam_baiduapp_logo"]
+www.baidu.com##DIV[class="s-skin-activity-tips"]
 ||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
 !加了下面一句之后，搜索建议就会消失，图片结构也不会显示，一下就回到了原始时代
 !（新版chrome显示空白，搜索引擎要修改为http://www.baidu.com/s?ie={inputEncoding}&tn=baidu&bar=&wd=%s）
@@ -96,23 +97,16 @@ http://www.baidu.com/ur/submit/urreward
 tieba.baidu.com##DIV[id^="game_"]
 tieba.baidu.com##DIV[class^="game_"]
 tieba.baidu.com##UL[class^="game_tab"]
-tieba.baidu.com##LI[id^="BAIDU_CLB_AD_"]
-tieba.baidu.com##DIV[id^="BAIDU_CLB_AD_IFRAME_"]
-tieba.baidu.com##LI[id^="spreadad_"]
-tieba.baidu.com##LI[class^="clearfix spreadad spreadad_"]
+tieba.baidu.com##LI[id*="spreadad_"]
 tieba.baidu.com##DIV[class^="lot_wrap"]
-tieba.baidu.com##LI[class="thread_notice clearfix thread_1st"]
-tieba.baidu.com##DIV[class="per_list j_per_list per_list_index"]
 tieba.baidu.com##LI[class="img_list_2pic tbui_slideshow_slide"]
 tieba.baidu.com##IMG[src="http://img.baidu.com/img/iknow/qb/select-search.png"]
-tieba.baidu.com##DIV[class="item live_show"]
 tieba.baidu.com##DIV[class="member_rank"]
 tieba.baidu.com##IMG[src="http://tb1.bdstatic.com/tb/lklzh.jpg"]
 tieba.baidu.com##DIV[id="encourage_entry"]
 tieba.baidu.com##LI[class^="u_tbmall"]
 tieba.baidu.com##LI[class^="u_tshow"]
 tieba.baidu.com##DIV[class="save_face_bg save_face_bg_1"]
-www.baidu.com##DIV[class="s-skin-activity-tips"]
 tieba.baidu.com##DIV[id="forum_recommend"]
 tieba.baidu.com##DIV[class^="spage_liveshow_slide"]
 tieba.baidu.com##DIV[class^="platact_"]
@@ -121,6 +115,11 @@ tieba.baidu.com##DIV[class*="firework_sender"]
 tieba.baidu.com##div[id*="global_notice_wrap"]
 tieba.baidu.com##div[class*="frs_act_repost_"]
 tieba.baidu.com##div[class*="live_show"]
+tieba.baidu.com##a[href*="game_id"]
+tieba.baidu.com##a[href^="http://tieba.baidu.com/game/"]
+! 贴吧广告回复贴隐藏↓
+tieba.baidu.com##div[class^="l_post_bright"][data-daid*="1"]
+! 贴吧链接对象屏蔽
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/tdou_*.js$domain=tieba.baidu.com
@@ -137,7 +136,7 @@ tieba.baidu.com##div[class*="live_show"]
 ||bdstatic.com/tb/static-encourage/widget/worldcup_guess_item/images/wish_card_back_
 ||bdstatic.com/tb/static-ucenter/img/cont_sign_card.gif
 ||bdstatic.com/tb/zt/tengfei/gzdialog.jpg
-||tb1.bdstatic.com/tb/static-comforum/widget/history_game/$domain=tieba.baidu.com
+||tb1.bdstatic.com/tb/*/history_game/$domain=tieba.baidu.com
 ||wanba.baidu.com/*$domain=tieba.baidu.com
 ||youxi.baidu.com/*$domain=tieba.baidu.com
 ||xiu8.com$third-party
@@ -147,7 +146,6 @@ tieba.baidu.com##div[class*="live_show"]
 ||static.pay.baidu.com/*/tuisong/*$domain=tieba.baidu.com
 ||bdstatic.com/*/static-liveshow/*$domain=tieba.baidu.com
 ||static.pay.baidu.com/tequan/tuisong/images/*
-
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
