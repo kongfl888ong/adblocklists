@@ -117,10 +117,14 @@ tieba.baidu.com##div[class*="frs_act_repost_"]
 tieba.baidu.com##div[class*="live_show"]
 tieba.baidu.com##a[href*="game_id"]
 tieba.baidu.com##a[href^="http://tieba.baidu.com/game/"]
+tieba.baidu.com##a[href^="http://tieba.baidu.com/show/v/"]
 ! 贴吧广告回复贴隐藏↓
 tieba.baidu.com##li[data-daid*="0"]
 tieba.baidu.com##li[data-daid*="1"]
 tieba.baidu.com##li[data-daid*="2"]
+tieba.baidu.com##div[data-daid*="0"]
+tieba.baidu.com##div[data-daid*="1"]
+tieba.baidu.com##div[data-daid*="2"]
 ! 贴吧链接对象屏蔽
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
