@@ -220,6 +220,8 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 
 ! 网易163
 163.com##div[id*="NodesWrap"]
+163.com##a[href*="bobo."]
+163.com##[class*="bobo"]
 
 !--------------------------------------
 
