@@ -126,6 +126,9 @@ tieba.baidu.com##li[data-daid*="2"]
 tieba.baidu.com##div[data-daid*="0"]
 tieba.baidu.com##div[data-daid*="1"]
 tieba.baidu.com##div[data-daid*="2"]
+!!贴吧弹窗
+tieba.baidu.com##*#pop_frame
+tieba.baidu.com##div[id*="pop_"]
 !!贴吧链接对象屏蔽
 ||static.tieba.baidu.com/tb/img/track.gif$domain=tieba.baidu.com
 ||bdstatic.com/tb/*/aside_float_bar_*.js$domain=tieba.baidu.com
