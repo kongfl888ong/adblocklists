@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-12-12 01:10
+!  Last Modified:  2014-12-16 09:10
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
 
@@ -84,7 +84,7 @@ www.baidu.com##A[class="sam_iebrowser_download"]
 www.baidu.com##i[class="c-icon sam_baiduapp_logo"]
 www.baidu.com##DIV[class="s-skin-activity-tips"]
 ||bdstatic.com/r/www/cache/static/global/js/ie6banner_*$script
-!加了下面一句之后，搜索建议就会消失，图片结构也不会显示，一下就回到了原始时代
+!加了下面一句之后，搜索建议就会消失，图片结构也不会显示，open.baidu.com的结果也不会显示，一下就回到了原始时代，首页登陆也会失败（必须先随便搜索个页面）
 !（新版chrome显示空白，搜索引擎要修改为http://www.baidu.com/s?ie={inputEncoding}&tn=baidu&bar=&wd=%s）
 ||s1.bdstatic.com/*/jquery-1.10.2.min_*.js
 http://www.baidu.com/ur/submit/urreward
@@ -119,6 +119,7 @@ tieba.baidu.com##a[href*="game_id"]
 tieba.baidu.com##a[href^="http://tieba.baidu.com/game/"]
 tieba.baidu.com##a[href^="http://tieba.baidu.com/show/v/"]
 tieba.baidu.com##a[href*="%D3%A6%D3%C3%D6%D0%D0%C4"]
+tieba.baidu.com##a[class*="j_couplet couplet_"]
 !!贴吧广告回复贴隐藏↓
 tieba.baidu.com##li[data-daid*="0"]
 tieba.baidu.com##li[data-daid*="1"]
