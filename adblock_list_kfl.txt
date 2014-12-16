@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-12-17 00:01
+!  Last Modified:  2014-12-17 00:51
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -10,12 +10,12 @@
 !--中国电信
 /clicktotal/ClickTotal.js
 ||189.cn/dns/*$third-party
-||gd.189.cn/ad/$popup,third-party
-||gd.189.cn/gz/promotion/$popup,third-party
-||gd.189.cn/push/$popup,third-party
-||gd.189.cn^*/push/$popup,third-party
-||gd.ct10000.com/js/ecssstat.js
-||gd.ct10000.com^*/push/$popup,third-party
+||189.cn/ad/$popup,third-party
+||189.cn/gz/promotion/$popup,third-party
+||189.cn/push/$popup,third-party
+||189.cn^*/push/$popup,third-party
+||ct10000.com/js/ecssstat.js
+||ct10000.com^*/push/$popup,third-party
 ||jxad.jx163.com^
 ||113.17.188.44^$third-party
 ||202.102.100.100^$third-party
@@ -31,14 +31,14 @@
 !##iframe[src^="http://221.7.244.118"]
 !##iframe[src^="ad.gx10010.com/"]
 !##iframe[src^="http://221.7.244.119"]
-
+!
 ! 电信dns挟持页
 dnserror.cn##DIV[class="skeyword"]
 ||dnserror.cn
 ||ctrip.com$domain=dnserror.cn
 dnserror.cn##DIV[class="error"]
 dnserror.cn##H2
-
+!
 ! 爱漫网广告
 www.imanhua.com##div[id^="imh"]
 www.imanhua.com/inc/update2.html
@@ -191,8 +191,7 @@ www.dianxinnews.com##DIV[id^="jinrituijian"]
 www.dianxinnews.com##DIV[id^="jingcaitupian"]
 www.dianxinnews.com##A[href^="http://jtscsp.ntxqw.com"]
 www.dianxinnews.com##UL[id^="xinwentuji"]
-
-
+!
 !新闻广告
 ##[href^="http://sh.qihoo.com/?src="][href$="#resoutu"]
 net.chinabyte.com##ASIDE[class="col-extra"]
@@ -202,36 +201,35 @@ weibo.com##div[id="Pl_Official_MyMicroworld__3"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
 !皇冠网
 !/^.*hg(\d)+.*$/
-##a[href^="http://"][href^="hg"]$domain=~baidu.com|~sina.com|~weibo.com|~weibo.cn|~so.com|~163.com|~github.com|~ifeng.com|~youku.com|~tudou.com|~letv.com|~iqiyi.com|~qq.com|~pptv.com|~xunlei.com|~kankan.com|~360.cn|~bdstatic.com
-
+##a[href^="http://"][href*="hg"]$domain=~baidu.com|~sina.com|~weibo.com|~weibo.cn|~so.com|~163.com|~github.com|~ifeng.com|~youku.com|~tudou.com|~letv.com|~iqiyi.com|~qq.com|~pptv.com|~xunlei.com|~kankan.com|~360.cn|~bdstatic.com|~taobao.com|~tmall.com|~alipay.com
+!
 ! ku6 酷6
 v.ku6.com##div[class="award gif"]
 ! PPS
 v.pps.tv##div[id="hot-send"]
-
+!
 !红豆
 ||user.hongdou.gxnews.com.cn/upload/index/$object_subrequest
-
+!
 !www.sendspace.com
 www.sendspace.com##DIV[id="sswxdownload"]
 ||sendspace.com/defaults/framer.html$domain=sendspace.com
 www.sendspace.com##DIV[class^="ads_holde"]
 www.sendspace.com##A[class="ads_remove"]
-
+!
 haotui.com##TABLE[class^="haotuitoutiao"]
 www.zdfans.com##IMG[src^="http://www.zdfans.com/webad/"]
 diggbt.com##IFRAME[class^="bdSug_sd"]
 !远景beta
 ||cdn.pcbeta.js.inimc.com//data/cache/jquery.js
-
 ! 网易163
 163.com##div[id*="NodesWrap"]
 163.com##a[href*="bobo."]
 163.com##[class*="bobo"]
 163.com##a[href*="love.163.com"]
-
+!
 !--------------------------------------
-
+!
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
 ! 京东
@@ -239,7 +237,7 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ! 谷歌统计
 ||google-analytics.com^
 ||googleapis.com$third-party
-
+!
 !广告网
 ||js.2529.com
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
@@ -252,7 +250,7 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||adk2.co$third-party
 ||vitalads.net$third-party
 ||eclick.baidu.com
-
+!
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
 @@|http://c2.yunpan.360.cn/my|$document
