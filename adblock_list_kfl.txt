@@ -1,9 +1,10 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-12-16 09:10
+!  Last Modified:  2014-12-16 10:00
 !  coding: utf-8, expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
-
+!  Licence: https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/Licence.txt
+!
 !--------------------------------------------------
 !--中国电信
 /clicktotal/ClickTotal.js
