@@ -4,7 +4,7 @@
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
-!  Licence: https://raw.githubusercontent.com/kongfl888ong/adblocklists/master/Licence.txt
+!  Licence: https://github.com/kongfl888ong/adblocklists/blob/master/Licence.txt
 !
 !--------------------------------------------------
 !--中国电信
