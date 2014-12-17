@@ -241,7 +241,6 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 !通用过滤规则
 .com/ad/$domain=~channel4.com|~watchever.de
 /top_ad.
-.ad-box*
 &adurl=
 /advertise/*
 /videoad.
