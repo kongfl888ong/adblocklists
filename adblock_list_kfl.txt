@@ -198,7 +198,7 @@ www.dianxinnews.com##UL[id^="xinwentuji"]
 21cn.com##ul[id*="topad"]
 21cn.com##div[id="MainPromotionBanner"]
 ||fx.zimilan.com/js/pick/run/*
-||img2.haxiu.com/21cn/art/js/tab.js
+||haxiu.com $third-party
 ||analytics.21cn.com^
 !
 !新闻广告
@@ -274,7 +274,8 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||vm.aty.sohu.com^
 ||fastapi.net^$third-party
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
-
+||fx.zimilan.com/js/pick/run/* $third-party
+||haxiu.com $third-party
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
