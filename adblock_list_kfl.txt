@@ -237,6 +237,10 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 163.com##[class*="bobo"]
 163.com##a[href*="love.163.com"]
 !
+! 下载站
+! 33lc.com
+||33lc.com/caches/poster_js/*$~third-party
+33lc.com##div[class*="c_hot_pic"]
 !--------------------------------------
 !通用过滤规则
 .com/ad/$domain=~channel4.com|~watchever.de
