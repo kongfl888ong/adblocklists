@@ -282,4 +282,4 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 @@||yunpan.360.cn/$document
 @@||yz.chsi.com.cn^$document
 @@||l.qq.com/livemsg?ty=web&ad_type=
-@@||12306.cn
+@@||kyfw.12306.cn^$document
