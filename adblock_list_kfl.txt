@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-12-21 00:30
+!  Last Modified:  2014-12-24 00:30
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -118,6 +118,8 @@ tieba.baidu.com##div[id*="global_notice_wrap"]
 tieba.baidu.com##div[class*="frs_act_repost_"]
 tieba.baidu.com##div[class*="live_show"]
 tieba.baidu.com##a[href*="game_id"]
+tieba.baidu.com##div[class*="game_"]
+tieba.baidu.com##a[class*="game_"]
 tieba.baidu.com##a[href^="http://tieba.baidu.com/game/"]
 tieba.baidu.com##a[href^="http://tieba.baidu.com/show/v/"]
 tieba.baidu.com##a[href*="%D3%A6%D3%C3%D6%D0%D0%C4"]
