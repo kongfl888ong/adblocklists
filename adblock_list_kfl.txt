@@ -240,6 +240,8 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 163.com##a[href*="love.163.com"]
 163.com##div[id="blog-163-com-toptips"]
 163.com##div[class="blogtoptipswrap"]
+163.com##div[id="loftertextlinkad"]
+163.com##div[id*="yodaoad"]
 !
 ! 下载站
 ! 33lc.com
