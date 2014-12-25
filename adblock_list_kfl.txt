@@ -249,6 +249,9 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 33lc.com##div[class*="c_hot_pic"]
 !--------------------------------------
 !通用过滤规则
+!通用隐藏元素
+##a[href^="http://www.baidu.com/cpro.php"]
+!通用对象过滤
 .com/ad/$domain=~channel4.com|~watchever.de
 /top_ad.
 &adurl=
@@ -285,7 +288,6 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
 ||fx.zimilan.com/js/pick/run/* $third-party
 ||haxiu.com $third-party
-||http://www.baidu.com/cpro.php $third-party
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
