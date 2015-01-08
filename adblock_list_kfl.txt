@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2014-12-31 23:45
+!  Last Modified:  2015-01-08 14:45
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -126,6 +126,7 @@ tieba.baidu.com##a[href*="%D3%A6%D3%C3%D6%D0%D0%C4"]
 tieba.baidu.com##a[class*="j_couplet couplet_"]
 tieba.baidu.com##div[id^="spage_game_tab_wrapper"]
 tieba.baidu.com##a[href$=".apk"]
+tieba.baidu.com##a[href$="/tbmall/home"]
 !!贴吧广告回复贴隐藏↓
 tieba.baidu.com##li[data-daid*="0"]
 tieba.baidu.com##li[data-daid*="1"]
@@ -166,6 +167,7 @@ tieba.baidu.com##div[id*="pop_"]
 ||tb1.bdstatic.com/tb/cms/ngmis/*
 ||bdstatic.com/tb/cms/img/tieba_index_banner960x90.png
 ||bdstatic.com/tb/static-spage/widget/spage_game_tab/img/*
+||tb1.bdstatic.com/tb/cms/post/bubble/*
 !百度顶部冒泡广告
 ||hi.bdimg.com/*/mod_bubble.js?
 ! 百度我的主页广告
