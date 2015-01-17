@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-01-09 15:22
+!  Last Modified:  2015-01-18 00:22
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -248,6 +248,7 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 163.com##div[class="blogtoptipswrap"]
 163.com##div[id="loftertextlinkad"]
 163.com##div[id*="yodaoad"]
+||163.com/newpage/images/lofterad/*$image
 !
 ! 下载站
 ! 33lc.com
