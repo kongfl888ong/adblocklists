@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-02-25 16:22
+!  Last Modified:  2015-04-04 16:40
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -216,6 +216,8 @@ net.chinabyte.com##ASIDE[class="col-extra"]
 pic.news.sohu.com##DIV[class="boxC-RB"]
 ent.ifeng.com##ul[class="pics_2 clearfix"]
 weibo.com##div[id="Pl_Official_MyMicroworld__3"]
+finance.gucheng.com##div[class="piclist"]
+finance.gucheng.com##div[class="n_s_r"]
 ||s.lianmeng.360.cn/media/news/union_mt_*.js$third-party
 !皇冠网
 !/^.*hg(\d)+.*$/
