@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-04-04 16:40
+!  Last Modified:  2015-04-27 14:35
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -272,9 +272,23 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||cnzz.com$third-party
 ! 京东
 ||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
+!
+!屏蔽一些受墙的网域，反正国内受墙根本用不到，加载只会拖累浏览器
 ! 谷歌统计
 ||google-analytics.com^
 ||googleapis.com$third-party
+! 谷歌api
+||apis.google.com/js/*$third-party
+! 谷歌自定义搜索
+||google.com/cse/cse.js?*$third-party
+! 移除facebook SDK
+||facebook.net^$third-party
+! 一个国外的支付平台
+||flattr.com^$third-party
+! 推特分享
+||platform.twitter.com^$third-party
+!
+!
 !
 !广告网
 ||js.2529.com
@@ -306,3 +320,4 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 @@||yz.chsi.com.cn^$document
 @@||l.qq.com/livemsg?ty=web&ad_type=
 @@||kyfw.12306.cn^$document
+@@||w.qq.com^$document
