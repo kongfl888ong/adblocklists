@@ -317,6 +317,10 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||fc2live.us/*
 ||fc2tw.com/*
 ||fc2cn.com^
+fc2live.us##body
+chenghuavideo.asia##body
+fc2cn.com##body
+fc2tw.com##body
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
