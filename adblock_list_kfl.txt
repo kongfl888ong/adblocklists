@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-04-27 14:35
+!  Last Modified:  2015-05-01 22:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -277,6 +277,7 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ! 谷歌统计
 ||google-analytics.com^
 ||googleapis.com$third-party
+||googleadservices.com/pagead/*$third-party
 ! 谷歌api
 ||apis.google.com/js/*$third-party
 ! 谷歌自定义搜索
@@ -312,6 +313,9 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||tanx.com^$third-party,domain=~taobao.com|~tmall.com
 ||fx.zimilan.com/js/pick/run/* $third-party
 ||haxiu.com $third-party
+||chenghuavideo.asia/*
+||fc2live.us/*
+||fc2tw.com/*
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
