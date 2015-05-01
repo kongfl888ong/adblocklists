@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-05-01 22:00
+!  Last Modified:  2015-05-01 23:00
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -316,6 +316,7 @@ diggbt.com##IFRAME[class^="bdSug_sd"]
 ||chenghuavideo.asia/*
 ||fc2live.us/*
 ||fc2tw.com/*
+||fc2cn.com^
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
