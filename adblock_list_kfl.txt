@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-05-02 23:00
+!  Last Modified:  2015-05-03 07:16
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -185,6 +185,7 @@ news.baidu.com##div[id="favoriteTips"]
 chinadaily.com.cn##div[id^="qihu"]
 ! 中国网
 ||news.china.com.cn/hookNwesRight*.js
+shehui.china.com.cn##div[class="Photos"]
 ! 环球
 ||himg2.huanqiu.com/statics/js/adCode.js
 huanqiu.com##div[class^="hdPic"]
