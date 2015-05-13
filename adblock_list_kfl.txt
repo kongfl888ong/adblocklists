@@ -1,6 +1,6 @@
 ﻿ [Adblock]
 !  Title: Adblock_list_kfl  
-!  Last Modified:  2015-05-13 14:20
+!  Last Modified:  2015-05-13 19:20
 !  Coding: utf-8
 !  Expires: 1 days
 !  Homepage: https://github.com/kongfl888ong/adblocklists
@@ -297,7 +297,6 @@ blog.163.com###blog-163-com-toptips
 ###jobads
 ##div[id*=ShowAD]
 ##a[href^="javascript:window.external.AddFavorite("]
-
 !
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
@@ -365,6 +364,9 @@ fc2tw.com##body
 ##a[href^="www.89w"]
 ##a[href^="www.hg"]
 ##table[id^=table400]
+##img[src$="960-90.gif"]
+/bbs/*/tu/960-90.
+/bbs/*/tu/xy.jpg
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
