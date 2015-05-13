@@ -282,6 +282,22 @@ blog.163.com###blog-163-com-toptips
 &adurl=
 /advertise/*
 /videoad.
+/vns/*
+/vns1.
+/vns2.
+/vns3.
+/vns4.
+/vns5.
+/vns6.
+/vns7.
+/vns8.
+/vns9.
+###ShowAD
+###lqdel
+###jobads
+##div[id*=ShowAD]
+##a[href^="javascript:window.external.AddFavorite("]
+
 !
 ! 去除cnzz网站统计
 ||cnzz.com$third-party
@@ -336,6 +352,19 @@ fc2live.us##body
 chenghuavideo.asia##body
 fc2cn.com##body
 fc2tw.com##body
+! 临时
+##img[width="1000" height="60" src$=".gif"]
+##img[width="985" height="60" src$=".gif"]
+##img[width="918" height="60" src$=".gif"]
+##img[width="918" height="50" src$=".gif"]
+##img[width="882" height="50" src$=".gif"]
+##img[width="782" height="50" src$=".gif"]
+##img[width="782" height="50" src$=".gif"]
+##iframe[src*="/bbs/shuben.htm"]
+##a[href^="www.hlw"]
+##a[href^="www.89w"]
+##a[href^="www.hg"]
+##table[id^=table400]
 !
 !白名单
 @@|https://fireeye.ijinshan.com/|$document
